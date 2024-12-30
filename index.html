@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-screen h-screen bg-cyan-500 overflow-hidden flex items-center justify-center">
+        <div class="flex flex-col gap-5">
+            <div class="font-medium text-[20px] text-cyan-300">increment and decrement</div>
+            <div class="flex bg-white gap-12 h-11 items-center rounded-sm text-[25px] text-[#344151] p-5 px-5">
+                <button onclick="decrement()" id="minus" class="border-r-2 pr-5">&#8722;</button>
+                <div id="value">0</div>
+                <button onclick="increment()" id="plus" class="border-l-2 pl-5">&#43;</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
